@@ -1,0 +1,61 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+		"A1A0A0A1-0000-0000-0000-000000000001" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>";};
+		"A1A0A0A2-0000-0000-0000-000000000002" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>";};
+		"A1A0A0A3-0000-0000-0000-000000000003" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>";};
+		"A1A0A0A4-0000-0000-0000-000000000004" = {isa = PBXGroup; children = (
+			"A1A0A0A1-0000-0000-0000-000000000001",
+			"A1A0A0A2-0000-0000-0000-000000000002",
+			"A1A0A0A3-0000-0000-0000-000000000003"
+		); name = Sources; sourceTree = "<group>";};
+		"A1A0A0A5-0000-0000-0000-000000000005" = {isa = PBXBuildFile; fileRef = "A1A0A0A1-0000-0000-0000-000000000001";};
+		"A1A0A0A6-0000-0000-0000-000000000006" = {isa = PBXBuildFile; fileRef = "A1A0A0A2-0000-0000-0000-000000000002";};
+		"A1A0A0A7-0000-0000-0000-000000000007" = {isa = PBXBuildFile; fileRef = "A1A0A0A3-0000-0000-0000-000000000003";};
+		"A1A0A0A8-0000-0000-0000-000000000008" = {isa = PBXNativeTarget; buildConfigurationList = "A1A0A0A9-0000-0000-0000-000000000009"; name = SystemNinfl; productName = SystemNinfl; productType = "com.apple.product-type.application"; productReference = "A1A0A0AA-0000-0000-0000-00000000000A";};
+		"A1A0A0A9-0000-0000-0000-000000000009" = {isa = XCConfigurationList; buildConfigurations = (
+			"A1A0A0AA-0000-0000-0000-00000000000B",
+			"A1A0A0AB-0000-0000-0000-00000000000C"
+		); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug;};
+		"A1A0A0AA-0000-0000-0000-00000000000A" = {isa = PBXFileReference; lastKnownFileType = application; path = SystemNinfl.app; sourceTree = "BUILT_PRODUCTS_DIR";};
+		"A1A0A0AB-0000-0000-0000-00000000000B" = {isa = XCBuildConfiguration; name = Debug; buildSettings = {
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.systemninfl.app;
+			PRODUCT_NAME = SystemNinfl;
+			SWIFT_OPTIMIZATION_LEVEL = -Onone;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		};};
+		"A1A0A0AC-0000-0000-0000-00000000000C" = {isa = XCBuildConfiguration; name = Release; buildSettings = {
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.systemninfl.app;
+			PRODUCT_NAME = SystemNinfl;
+			SWIFT_COMPILATION_MODE = wholemodule;
+			SWIFT_OPTIMIZATION_LEVEL = -O;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		};};
+		"A1A0A0AD-0000-0000-0000-00000000000D" = {isa = PBXSourcesBuildPhase; files = (
+			"A1A0A0A5-0000-0000-0000-000000000005",
+			"A1A0A0A6-0000-0000-0000-000000000006",
+			"A1A0A0A7-0000-0000-0000-000000000007"
+		);};
+		"A1A0A0AE-0000-0000-0000-00000000000E" = {isa = PBXProject; attributes = {
+			LastSwiftUpdateCheck = 2620;
+			objectVersion = 77;
+		}; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en); mainGroup = "A1A0A0A4-0000-0000-0000-000000000004"; packageReferences = (); projects = (); targets = (
+			"A1A0A0A8-0000-0000-0000-000000000008"
+		);};
+	};
+	rootObject = "A1A0A0AE-0000-0000-0000-00000000000E";
+}
